@@ -17,25 +17,24 @@ body {
 
 .inner {
 	display: grid;
-	/* grid-gap: 6px; */
-	width: 10px;
 	grid-template-columns: 1fr 1fr ;
 	grid-template-rows: 220px ;
 }
 
 .img {
 	width: 150px;
+	margin-bottom: 20px;
 }
 
 .item {
 	text-align: center;
-	/* grid-gap: 30rem; */
 }
 .ttitle{
 	margin: 5px;
 }
 
 .btn {
+	font-family: yekan;
 	display: inline-block;
 	padding: 10px 20px;
 	border: none;
